@@ -21,7 +21,7 @@ int main (void) {
 	printf("variável int constante = %d/n", MAX_NUM);
 	printf("variavel constante = %f/n", PI);
 
-	 MAX_NUM = 99;
+	//MAX_NUM = 99;
 
 	return EXIT_SUCCESS;
 }

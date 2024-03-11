@@ -7,7 +7,7 @@ int main (void){
         printf("Entre com um número para encerrar digite 0:");
         scanf("%d", &num);
         if(num != 0){
-            if(num % 2){
+            if(num % 2 == 0){
                 contpar = contpar + 1;
             }
             else{
@@ -18,6 +18,6 @@ int main (void){
     }
    
     
-printf("A quantidade de números pares é;", &contpar);
-printf("A quantidade de números impares é:",&contimpar);
+printf("A quantidade de números pares é:%d\n", contpar);
+printf("A quantidade de números impares é:%d",contimpar);
 }

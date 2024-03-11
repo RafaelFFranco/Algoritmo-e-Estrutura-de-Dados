@@ -18,7 +18,7 @@ int main (void) {
 	} while(num != 0);
 	
 	printf("a quantidade de numeros pares é: %d\n", contpar);
-	printf("a quantidade de numeros imoares é: %d\n", contimpar);
+	printf("a quantidade de numeros impares é: %d\n", contimpar);
 	
 	 return 0;
 }
